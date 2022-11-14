@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: column; /* Выставляем flex-элементы в колонку, основная ось - Y */
+    justify-content: center; /* Выравнивание по основной оси */
+    align-items: center; /* Выравнивание по перечной оси - Х */
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 130%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__arrow {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 48px;
+    height: 48px;
+}

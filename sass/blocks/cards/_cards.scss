@@ -1,0 +1,38 @@
+.card {
+    max-width: 540px;
+    background-color: #fff;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+    transition: transform 0.2s ease-in;
+
+    &:hover {
+        transform: translateY(-15px);
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 130%;
+    }
+}
+
+.card__link {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: rgb(39, 91, 236);
+    }
+}
+
+.card__link-img {
+    margin-bottom: 20px;
+}
+
+.card__link-title {
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+}
